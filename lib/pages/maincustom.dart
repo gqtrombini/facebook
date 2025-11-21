@@ -38,14 +38,15 @@ class _MaincustomPageState extends State<MaincustomPage> {
       BottomNavigationBar(
         currentIndex: selectedIndex,
         onTap: onItemTapped,
+        type: BottomNavigationBarType.fixed, 
         items: const[
-          BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.person),label: "Friends"),
-          BottomNavigationBarItem(icon: Icon(Icons.ondemand_video),label: "Reels"),
-          BottomNavigationBarItem(icon: Icon(Icons.local_convenience_store),label: "Market Place"),
-          BottomNavigationBarItem(icon: Icon(Icons.notifications),label: "Notifications"),
+          BottomNavigationBarItem(icon: Icon(Icons.home_outlined), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.person_outline), label: "Friends"),
+          BottomNavigationBarItem(icon: Icon(Icons.ondemand_video_outlined), label: "Reels"),
+          BottomNavigationBarItem(icon: Icon(Icons.storefront_outlined), label: "Market Place"),
+          BottomNavigationBarItem(icon: Icon(Icons.notifications_outlined), label: "Notifications"),
           BottomNavigationBarItem(
-            label:"Menu",
+            label:"Profile",
             icon: CircleAvatar(
               backgroundImage: AssetImage("assets/profile/prof3.jpg")
             ))

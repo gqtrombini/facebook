@@ -1,6 +1,5 @@
 import 'package:facebook/model/story_model.dart';
 import 'package:facebook/widgets/createpost.dart';
-import 'package:facebook/widgets/newsfeed_post.dart';
 import 'package:facebook/widgets/storylist.dart';
 import 'package:flutter/material.dart';
 
@@ -61,7 +60,7 @@ crossAxisAlignment: CrossAxisAlignment.start,
 children: [
 ListTile(
 leading: CircleAvatar(backgroundImage: AssetImage('assets/profile/prof1.jpg')),
-title: Text("Juan Dela Cruz"),
+title: Text("Jaena Smith"),
 subtitle: Text("Enjoying the sunny weather!"),
 ),
 Image.asset("assets/myday/myday1.jpg", fit: BoxFit.cover),
@@ -99,10 +98,10 @@ crossAxisAlignment: CrossAxisAlignment.start,
 children: [
 ListTile(
 leading: CircleAvatar(backgroundImage: AssetImage('assets/profile/prof3.jpg')),
-title: Text("Hock Lee"),
+title: Text("Sarah Lee"),
 subtitle: Text("Delicious meal at my favorite restaurant."),
 ),
-Image.asset("assets/myday/myday4.jpg", fit: BoxFit.cover),
+Image.asset("assets/myday/myday1.jpg", fit: BoxFit.cover),
 Padding(
 padding: const EdgeInsets.all(8.0),
 child: Row(children: [Icon(Icons.thumb_up_off_alt), SizedBox(width: 8), Text("Like  ·  Comment")]),
@@ -121,7 +120,7 @@ leading: CircleAvatar(backgroundImage: AssetImage('assets/profile/prof4.jpg')),
 title: Text("Damian Lillard"),
 subtitle: Text("Exploring the city vibes."),
 ),
-Image.asset("assets/myday/try.png", fit: BoxFit.cover),
+Image.asset("assets/myday/myday4.jpg", fit: BoxFit.cover),
 Padding(
 padding: const EdgeInsets.all(8.0),
 child: Row(children: [Icon(Icons.thumb_up_off_alt), SizedBox(width: 8), Text("Like  ·  Comment")]),
